@@ -42,10 +42,10 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 /*----------------------------------------------------------------------------
 | Assuming at least one of the two 128-bit floating-point values pointed to by
-| 'aWPtr' and 'bWPtr' is a NaN, stores the combined NaN result at the location
-| pointed to by 'zWPtr'.  If either original floating-point value is a
-| signaling NaN, the invalid exception is raised.  Each of 'aWPtr', 'bWPtr',
-| and 'zWPtr' points to an array of four 32-bit elements that concatenate in
+| `aWPtr' and `bWPtr' is a NaN, stores the combined NaN result at the location
+| pointed to by `zWPtr'.  If either original floating-point value is a
+| signaling NaN, the invalid exception is raised.  Each of `aWPtr', `bWPtr',
+| and `zWPtr' points to an array of four 32-bit elements that concatenate in
 | the platform's normal endian order to form a 128-bit floating-point value.
 *----------------------------------------------------------------------------*/
 void
